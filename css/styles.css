@@ -31,25 +31,33 @@ body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption
 
 /* Desktop Viewport: Style rules for nav area */
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #c46c4c;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    background-color: #c46c4c;
 }
 nav li {
-  float: left;
+    border-top: none;
+    display: inline-block;
+    font-size: 1.5em;
+    border-right: 1px solid white;
+}
+nav li:last-child {
+    border-right: none;
 }
 nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
 }
 nav li a:hover {
     color: #c46c4c;
-    background-color: #C4A484;
+    background-color: #E1C16E;
     transform: scale(1.2);
 }
 
