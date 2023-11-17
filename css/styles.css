@@ -61,6 +61,42 @@ nav li a:hover, nav a:active {
     transform: scale(1.2);
 }
 
+/* Style rules for form elements */
+fieldset, input, textarea {
+  margin-bottom: 2%;
+}
+fieldset legend {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+label {
+  display: block;
+  padding-top: 2%;
+  color: #2f3f7b;
+}
+form h2 {
+    text-align: center;
+}
+form #submit {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 2%;
+  background-color: #c46c4c;
+  color: #E2E9C5;
+  font-size: 1.25em;
+  border-radius: 10px;
+}
+input, textarea {
+  color:#c46c4c;
+}
+input::placeholder, textarea::placeholder {
+  opacity: 0.5;
+  color: #2f3f7b;
+}
+
 /* Style rules for footer content */
 footer {
     background-color: #c46c4c;
