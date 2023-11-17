@@ -44,6 +44,7 @@ body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption
 
 /* Style rules for footer content */
 footer {
+    background-color: c46c4c;
     text-align: center;
     font-size: 0.65em;
     clear: left;  
