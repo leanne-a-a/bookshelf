@@ -10,11 +10,9 @@ body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption
     border: 0;
 }
 
-.hero {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(/images/header.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
+body {
+  background: linear-gradient(180deg, #fff, #c46c4c 100%);
+  background-attachment: fixed;
 }
  
 .welcome {
