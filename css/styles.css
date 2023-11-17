@@ -55,7 +55,7 @@ nav li a {
     padding-right: 0.5em;
     text-decoration: none;
 }
-nav li a:hover, nav li a:active {
+nav li a:hover, nav a:active {
     color: #c46c4c;
     background-color: #EADDCA;
     transform: scale(1.2);
