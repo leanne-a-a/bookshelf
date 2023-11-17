@@ -29,3 +29,22 @@ body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption
     color: #c46c4c;
 }
 
+/* Desktop Viewport: Style rules for nav area */
+  nav li a {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  nav li a:hover {
+    color: #c46c4c;
+    background-color: #C4A484;
+    transform: scale(1.2);
+  }
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;  
+}
