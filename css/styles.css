@@ -11,7 +11,7 @@ body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption
 }
 
 body {
-  background: linear-gradient(180deg, #fff, #c46c4c 100%);
+  background: linear-gradient(180deg, #fff, #EADDCA 100%);
   background-attachment: fixed;
 }
  
