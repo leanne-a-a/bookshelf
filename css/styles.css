@@ -10,10 +10,6 @@ body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption
     border: 0;
 }
 
-main {
-    font-family: 'DM Serif Display', serif;
-}
-
 .hero {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(/images/header.jpeg);
     background-size: cover;
@@ -69,6 +65,10 @@ nav li a:hover {
 footer {
     background-color: #c46c4c;
     text-align: center;
-    font-size: 0.65em;
-    clear: left;  
+    font-size: 0.85em;
+    clear: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
