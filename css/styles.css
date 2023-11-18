@@ -4,15 +4,16 @@
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h4, ul, section, aside, figure, figcaption {
+body, header, nav, main, footer, img, video, h1, h4, ul, section, aside, figure, figcaption {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
 body {
-  background: linear-gradient(180deg, #fff, #D7A48B 100%);
-  background-attachment: fixed;
+    background: linear-gradient(180deg, #fff, #D7A48B 100%);
+    background-attachment: fixed;
+    text-align:center;
 }
  
 .welcome {
@@ -72,6 +73,10 @@ figure, video {
   box-shadow: 6px 6px 10px #2f387b;
   max-width: 400px;
   margin: 2% auto;
+}
+
+.emoji {
+    border: none;
 }
 
 figcaption {
