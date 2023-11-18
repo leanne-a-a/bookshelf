@@ -67,7 +67,7 @@ aside {
   text-shadow: 4px 4px 10px #c46c4c;
 }
 
-figure {
+figure, video {
   border: 4px solid #2f387b;
   box-shadow: 6px 6px 10px #2f387b;
   max-width: 400px;
