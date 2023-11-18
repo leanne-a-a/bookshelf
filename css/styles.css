@@ -4,7 +4,7 @@
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
+body, header, nav, main, footer, img, h1, h4, ul, section, aside, figure, figcaption {
     margin: 0;
     padding: 0;
     border: 0;
@@ -57,6 +57,26 @@ nav li a:hover, .active {
     color: #c46c4c;
     background-color: #EADDCA;
     transform: scale(1.2);
+}
+
+/*Style rules for class and id selectors*/
+aside {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 4px 4px 10px #c46c4c;
+}
+
+figure {
+  border: 4px solid #2f387b;
+  box-shadow: 6px 6px 10px #2f387b;
+  max-width: 400px;
+  margin: 2% auto;
+}
+
+figcaption {
+  padding: 2%;
+  border-top: 4px solid #2f387b;
 }
 
 /* Style rules for form elements */
