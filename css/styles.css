@@ -10,6 +10,39 @@ body, header, nav, main, footer, img, video, h1, h4, ul, section, aside, figure,
     border: 0;
 }
 
+/Style rules for nav area */
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    background-color: #c46c4c;
+}
+nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.5em;
+    border-right: 1px solid white;
+}
+nav li:last-child {
+    border-right: none;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+}
+nav li a:hover, .active {
+    color: #c46c4c;
+    background-color: #EADDCA;
+    transform: scale(1.2);
+}
+
+
 @media screen and (max-width: 767px) {
   /* Styles for mobile devices */
   body, footer {
@@ -59,39 +92,6 @@ body {
     padding: 2%;
   }
 
-  /Style rules for nav area */
-nav ul {
-    list-style-type: none;
-    overflow: hidden;
-    text-align: center;
-    background-color: #c46c4c;
-}
-nav li {
-    border-top: none;
-    display: inline-block;
-    font-size: 1.5em;
-    border-right: 1px solid white;
-}
-nav li:last-child {
-    border-right: none;
-}
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    text-decoration: none;
-}
-nav li a:hover, .active {
-    color: #c46c4c;
-    background-color: #EADDCA;
-    transform: scale(1.2);
-}
-
-
 /*Style rules for class and id selectors*/
 aside {
   text-align: center;
@@ -117,19 +117,23 @@ figcaption {
   border-top: 4px solid #2f387b;
 }
 
-/*STyle rules for books FAQs*/
+/*Style rules for books FAQs*/
 .faq {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .faq h2 {
-  cursor: pointer;
-  font-weight: bold;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .faq .answer {
-  display: none;
-  margin-top: 10px;
+    display: none;
+    margin-top: 10px;
+    text-align: center;
 }
     
 /* Style rules for table elements */
