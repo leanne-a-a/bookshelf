@@ -15,14 +15,12 @@ nav ul {
     list-style-type: none;
     overflow: hidden;
     text-align: center;
-    background-color: #c46c4c;
-}
+    background-color: #c46c4c;}
 nav li {
     border-top: none;
     display: inline-block;
     font-size: 1.5em;
-    border-right: 1px solid white;
-}
+    border-right: 1px solid white;}
 nav li:last-child {
     border-right: none;
 }
