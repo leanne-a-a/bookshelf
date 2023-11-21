@@ -10,25 +10,53 @@ body, header, nav, main, footer, img, video, h1, h4, ul, section, aside, figure,
     border: 0;
 }
 
-body {
-    background: linear-gradient(180deg, #fff, #D7A48B 100%);
-    background-attachment: fixed;
-    text-align:center;
-}
- 
-.welcome {
-    margin-top: 10%;
-}
- 
-.bg-brown {
-    background-color: #c46c4c;
-}
- 
-.text-brown {
-    color: #c46c4c;
+/* Style rules for mobile viewport */
+
+/* Hide tab-desk class */
+
+.tab-desk {
+  display: none;
 }
 
-/* Desktop Viewport: Style rules for nav area */
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 550px), print {
+  /* Tablet Viewport: Show tab-desk class, hide mobile class */  
+  .tab-desk {
+    display: block;
+  } 
+  .mobile {
+    display: none;  
+  } 
+ 
+  /* Tablet Viewport: Style rule for header content */     
+  span.tab-desk {
+    display: inline;
+  }
+
+  /* Tablet Viewport: Style rules for nav area */
+  nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.5em;
+  }
+  nav li:last-child {
+    border-right: none;
+  }
+  nav li a {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px), print {
+  /* Desktop Viewport: Style rule for header */
+  header {
+    padding: 2%;
+  }
+
+  /* Desktop Viewport: Style rules for nav area */
 nav ul {
     list-style-type: none;
     overflow: hidden;
@@ -58,6 +86,26 @@ nav li a:hover, .active {
     color: #c46c4c;
     background-color: #EADDCA;
     transform: scale(1.2);
+}
+}
+
+    /*Style rules for website*/
+body {
+    background: linear-gradient(180deg, #fff, #D7A48B 100%);
+    background-attachment: fixed;
+    text-align:center;
+}
+ 
+.welcome {
+    margin-top: 10%;
+}
+ 
+.bg-brown {
+    background-color: #c46c4c;
+}
+ 
+.text-brown {
+    color: #c46c4c;
 }
 
 /*Style rules for class and id selectors*/
