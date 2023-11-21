@@ -186,7 +186,7 @@ label {
 form h2 {
     text-align: center;
 }
-form #submit {
+form #submit, form #reset {
   margin-top: 0;
   margin-bottom: auto;
   margin-left: auto;
