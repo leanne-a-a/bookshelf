@@ -133,6 +133,21 @@ figcaption {
   border-top: 4px solid #2f387b;
 }
 
+/*STyle rules for books FAQs*/
+.faq {
+  margin-bottom: 20px;
+}
+
+.faq h2 {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.faq .answer {
+  display: none;
+  margin-top: 10px;
+}
+    
 /* Style rules for table elements */
 table {
     border: 1px solid #c46c4c;
