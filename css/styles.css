@@ -10,60 +10,31 @@ body, header, nav, main, footer, img, video, h1, h4, ul, section, aside, figure,
     border: 0;
 }
 
+/*Style rules for website*/
+body {
+    background: linear-gradient(180deg, #fff, #D7A48B 100%);
+    background-attachment: fixed;
+    text-align:center;
+}
+ 
+.welcome {
+    margin-top: 10%;
+}
+ 
+.bg-brown {
+    background-color: #c46c4c;
+}
+ 
+.text-brown {
+    color: #c46c4c;
+}
+
 /* Style rules for mobile viewport */
 
 /* Hide tab-desk class */
 
 .tab-desk {
   display: none;
-}
-
-/*Style rules for mobile nav / hamburger*/
-/* Style the navigation menu */
-.hamburger {
-  overflow: hidden;
-  background-color: #c46c4c;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.hamburger #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.hamburger a {
-  color: #fff;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-  font-weight: bold;
-  border-top-style: solid;
-  border-top-width: 0.5px;
-  border-top-color: #fff;
-
-}
-
-/* Style the hamburger menu */
-.hamburger a.icon {
-  background: #264653;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.hamburger a:hover {
-  background-color: #fff;
-  color: #c46c4c;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #c46c4c;
-  color: #c46c4c;
-  text-align: center;
 }
 
 /* Media Query for Tablet Viewport */
@@ -137,25 +108,6 @@ nav li a:hover, .active {
 }
 }
 
-    /*Style rules for website*/
-body {
-    background: linear-gradient(180deg, #fff, #D7A48B 100%);
-    background-attachment: fixed;
-    text-align:center;
-}
- 
-.welcome {
-    margin-top: 10%;
-}
- 
-.bg-brown {
-    background-color: #c46c4c;
-}
- 
-.text-brown {
-    color: #c46c4c;
-}
-
 /*Style rules for class and id selectors*/
 aside {
   text-align: center;
@@ -164,7 +116,7 @@ aside {
   text-shadow: 4px 4px 10px #c46c4c;
 }
 
-figure, video {
+figure {
   border: 4px solid #2f387b;
   box-shadow: 6px 6px 10px #2f387b;
   max-width: 400px;
@@ -183,7 +135,7 @@ figcaption {
 
 /* Style rules for table elements */
 table {
-    border: 1px solid #2f387b;
+    border: 1px solid #c46c4c;
     border-collapse: collapse;
     margin: 0 auto;
     width: 100%;
@@ -196,12 +148,12 @@ caption {
 }
  
 th, td {
-    border: 1px solid #2f387b;
+    border: 1px solid #c46c4c;
     padding: 2%; 
 }
  
 th {
-    background-color: #2f387b;
+    background-color: #c46c4c;
     color: #fff;
     font-size: 1.15em;
 }
