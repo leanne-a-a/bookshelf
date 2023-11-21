@@ -12,7 +12,7 @@ body, header, nav, main, footer, img, video, h1, h4, ul, section, aside, figure,
 
 @media screen and (max-width: 767px) {
   /* Styles for mobile devices */
-  html {
+  body, footer {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -20,7 +20,7 @@ body, header, nav, main, footer, img, video, h1, h4, ul, section, aside, figure,
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* Styles for tablets */
-  html {
+  body, footer {
     padding-left: 30px;
     padding-right: 30px;
   }
