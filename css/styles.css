@@ -133,6 +133,39 @@ figcaption {
   border-top: 4px solid #2f387b;
 }
 
+/* Style rules for table elements */
+table {
+    border: 1px solid #2f387b;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+ 
+caption {
+    font-size: 1.5em;
+    font-weight: bold; 
+    padding: 1%;
+}
+ 
+th, td {
+    border: 1px solid #2f387b;
+    padding: 2%; 
+}
+ 
+th {
+    background-color: #2f387b;
+    color: #fff;
+    font-size: 1.15em;
+}
+ 
+tr:nth-child(odd) {
+    background-color: #EADDCA;  
+}
+
+table {
+  width: 70%;
+}
+    
 /* Style rules for form elements */
 fieldset, input, textarea {
   margin-bottom: 2%;
