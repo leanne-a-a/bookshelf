@@ -11,6 +11,9 @@ body, header, nav, main, footer, img, video, h1, h4, ul, section, aside, figure,
 }
 
 /Style rules for nav area */
+nav {
+     background-color: #c46c4c;
+   }
 nav ul {
     list-style-type: none;
     overflow: hidden;
